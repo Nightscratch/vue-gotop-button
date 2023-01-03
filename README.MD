@@ -11,10 +11,10 @@ npm i vue-gototop-button
 ```js
 // main.js
 import { createApp } from 'vue'
-import goTopButton from 'vue-gototop-button'
+import { gtbutton } from 'vue-gototop-button'
 import App from './App.vue'
 // ...
-createApp(App).use(goTopButton).mount('#app')
+createApp(App).use(gtbutton).mount('#app')
 ```
 手动导入
 ```html
@@ -24,7 +24,7 @@ createApp(App).use(goTopButton).mount('#app')
     </GoTopBtn>
 </template>
 <script setup>
-import GoTopBtn from 'vue-gototop-button'
+import { GoTopBtn } from 'vue-gototop-button'
 </script>
 ```
 

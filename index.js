@@ -1,6 +1,6 @@
 import GoTopBtn from './GoTopButton.vue'
-import goTopButton from './plugin'
+import gtbutton from './plugin'
 export {
-    goTopButton,
+    gtbutton,
     GoTopBtn
 }

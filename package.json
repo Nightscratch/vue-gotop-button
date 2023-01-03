@@ -1,6 +1,6 @@
 {
   "name": "vue-gototop-button",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A button that, when you click it, brings your screen to the top",
   "main": "index.js",
   "keywords": [

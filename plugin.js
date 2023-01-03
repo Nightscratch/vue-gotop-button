@@ -1,5 +1,4 @@
 import GoTopButton from './GoTopButton.vue'
-import { createApp } from 'vue'
 
 export default {
     install: (app, options) => {
