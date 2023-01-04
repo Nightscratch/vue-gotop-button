@@ -6,8 +6,9 @@
 npm i vue-gototop-button
 ```
 
-## 使用
-全局加载组件
+## 引入
+
+全局引入
 ```js
 // main.js
 import { createApp } from 'vue'
@@ -16,16 +17,20 @@ import App from './App.vue'
 // ...
 createApp(App).use(gtbutton).mount('#app')
 ```
-手动导入
+局部引入
+```html
+<script setup>
+import { GoTopBtn } from 'vue-gototop-button'
+</script>
+```
+
+## 使用
 ```html
 <template>
     <GoTopBtn :top="20">
         <p>↑</p>
     </GoTopBtn>
 </template>
-<script setup>
-import { GoTopBtn } from 'vue-gototop-button'
-</script>
 ```
 
 ## 参数
